@@ -1,0 +1,86 @@
+{
+    "yu_user_info": {
+        "title": "账号信息",
+        "query": {
+            "title": "用户登录",
+            "props": [
+                {
+                    "title": "account",
+                    "msg": "用户账号"
+                },
+                {
+                    "title": "password",
+                    "msg": "用户密码"
+                }
+            ]
+        },
+        "delete": {
+            "title": "停用账户",
+            "props": [
+                {
+                    "title": "id",
+                    "msg": "账户id"
+                }
+            ]
+        },
+        "msg": {
+            "title": "测试接口",
+            "props": [
+                {
+                    "title": "id",
+                    "msg": "账户id"
+                }
+            ]
+        },
+        "update": {
+            "title": "修改密码",
+            "props": [
+                {
+                    "title": "id",
+                    "msg": "账户id"
+                },
+                {
+                    "title": "account",
+                    "msg": "用户账号"
+                },
+                {
+                    "title": "oldpassword",
+                    "msg": "原密码"
+                },
+                {
+                    "title": "password",
+                    "msg": "用户密码"
+                }
+            ]
+        },
+        "add": {
+            "title": "用户注册",
+            "props": [
+                {
+                    "title": "account",
+                    "msg": "用户账号"
+                },
+                {
+                    "title": "password",
+                    "msg": "用户密码"
+                },
+                {
+                    "title": "mobile",
+                    "msg": "手机号"
+                },
+                {
+                    "title": "idcard",
+                    "msg": "身份证"
+                },
+                {
+                    "title": "toPass",
+                    "msg": "二级密码"
+                },
+                {
+                    "title": "vnode",
+                    "msg": "验证码"
+                }
+            ]
+        }
+    }
+}
