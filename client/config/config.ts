@@ -2,9 +2,6 @@
 import { defineConfig } from 'umi';
 import defaultSettings from './defaultSettings';
 import proxy from './proxy';
-
-const { REACT_APP_ENV } = process.env;
-
 export default defineConfig({
   hash: true,
   antd: {},
@@ -73,11 +70,22 @@ export default defineConfig({
               ],
             },
             {
-              name: 'list.table-list',
-              icon: 'table',
-              path: '/list',
-              component: './ListTableList',
+              name: 'list.card-list',
+              icon: 'smile',
+              path: '/listcardlist',
+              component: './ListCardList',
             },
+            {
+              name: 'form.basic-form',
+              icon: 'smile',
+              path: '/formbasicform',
+              component: './FormBasicForm',
+            }, // {
+            //   name: 'list.table-list',
+            //   icon: 'table',
+            //   path: '/list',
+            //   component: './ListTableList',
+            // },
             {
               component: './404',
             },
